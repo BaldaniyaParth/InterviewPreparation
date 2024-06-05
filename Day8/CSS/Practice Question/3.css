@@ -1,0 +1,19 @@
+#box {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgb(16, 121, 219);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: cadetblue;
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 50px;
+    border-radius: 10%;
+}

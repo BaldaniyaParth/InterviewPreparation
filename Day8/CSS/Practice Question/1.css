@@ -1,0 +1,44 @@
+.box {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.circle {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.circle1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    top: 60px;
+    left: 60px;
+}
+
+.circle2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    top: 60px;
+    right: 60px;
+}
+
+.mouth {
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    top: 180px;
+    left: 60px;
+}
